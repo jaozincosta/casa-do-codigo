@@ -1,5 +1,5 @@
-const sqlite3 = require('sqlite3').verbose();
-const bd = new sqlite3.Database('data.db');
+const sqlite3 = require('sqlite3').verbose(); // importará o SQLite
+const bd = new sqlite3.Database('data.db'); //Criar instancia banco de dados
 
 const USUARIOS_SCHEMA = `
 CREATE TABLE IF NOT EXISTS usuarios (
