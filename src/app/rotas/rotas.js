@@ -35,8 +35,4 @@ module.exports = (app) => {
   app.post("/livros", function (req, resp) {
     console.log(req.body);
   });
-
-  app.post("/livros/cadastro", function (req, resp) {
-    console.log(req.body);
-  });
 };
